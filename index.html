@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HR Deck Studio | Recruitment, HR Consultancy & HR Training</title>
+  <meta name="description" content="HR Deck Studio provides recruitment, HR consultancy and practical HR training solutions for startups, SMEs, growing businesses and HR professionals in Bengaluru.">
+  <meta name="keywords" content="HR consultancy Bengaluru, recruitment services Bengaluru, HR training, recruitment agency, HR outsourcing, talent acquisition">
+  <meta name="theme-color" content="#0B1F3A">
+  <meta property="og:title" content="HR Deck Studio | People. Process. Growth.">
+  <meta property="og:description" content="Practical recruitment, HR consultancy and career-focused HR training.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--navy:#0B1F3A;--gold:#C9A227;--white:#fff;--light:#F5F6F8;--ink:#172033;--muted:#657084;--line:#e6e9ef;--radius:18px;--shadow:0 16px 45px rgba(11,31,58,.10)}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Montserrat,Arial,sans-serif;color:var(--ink);line-height:1.65;background:#fff}
+    a{text-decoration:none;color:inherit}.container{width:min(1120px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+    .nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{font-weight:700;letter-spacing:.3px;color:var(--navy);font-size:19px}.brand span{color:var(--gold)}
+    nav{display:flex;align-items:center;gap:24px;font-size:13px;font-weight:600}nav a:hover{color:var(--gold)}
+    .menu{display:none;background:none;border:0;font-size:27px;color:var(--navy)}
+    .hero{background:linear-gradient(120deg,var(--navy) 0%,#112d50 58%,#183a62 100%);color:#fff;padding:100px 0 90px;overflow:hidden}
+    .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:55px;align-items:center}.eyebrow{color:#ead17b;font-size:12px;letter-spacing:2px;text-transform:uppercase;font-weight:700}
+    h1,h2,h3{line-height:1.18;margin:0 0 18px}h1,h2{font-family:"Playfair Display",Georgia,serif}h1{font-size:clamp(42px,6vw,70px)}h2{font-size:clamp(32px,4vw,46px)}h3{font-size:20px}
+    .hero p{font-size:18px;max-width:650px;color:#e8edf4}.hero-card{min-height:390px;border:1px solid rgba(255,255,255,.16);border-radius:28px;background:linear-gradient(145deg,rgba(255,255,255,.12),rgba(255,255,255,.03));display:flex;align-items:end;padding:28px;box-shadow:0 25px 60px rgba(0,0,0,.16)}
+    .hero-card-inner{width:100%;padding:25px;border-radius:20px;background:rgba(255,255,255,.95);color:var(--navy)}.hero-card-inner strong{font-size:30px;font-family:"Playfair Display",Georgia,serif}.hero-card-inner p{color:var(--muted);font-size:14px;margin:7px 0 0}
+    .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 19px;border-radius:999px;font-size:13px;font-weight:700;border:1px solid transparent;transition:.2s}.btn-primary{background:var(--gold);color:#151515}.btn-primary:hover{transform:translateY(-2px);filter:brightness(1.05)}.btn-light{background:#fff;color:var(--navy)}.btn-outline{border-color:var(--gold);color:var(--gold);background:transparent}
+    section{padding:82px 0}.section-head{max-width:720px;margin-bottom:38px}.section-head p{color:var(--muted);margin:0}.center{text-align:center;margin-left:auto;margin-right:auto}
+    .light{background:var(--light)}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+    .card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:0 7px 24px rgba(11,31,58,.05)}.card h3{color:var(--navy)}.card p{color:var(--muted);font-size:14px}.icon{width:45px;height:45px;border-radius:13px;background:#fbf6e7;color:var(--gold);display:grid;place-items:center;font-weight:800;margin-bottom:18px}
+    .number{font-size:12px;color:var(--gold);font-weight:800;letter-spacing:1px}.checks{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:22px 0}.checks div{font-size:14px}.checks span{color:var(--gold);font-weight:800;margin-right:8px}
+    .process{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.step{padding:22px 15px;border:1px solid var(--line);border-radius:16px;background:#fff;text-align:center}.step b{display:block;color:var(--gold);font-size:12px;margin-bottom:8px}.step span{font-size:13px;font-weight:600}
+    .cta{background:var(--navy);color:#fff;text-align:center}.cta p{color:#dce5ef;max-width:650px;margin:0 auto}.cta .actions{justify-content:center}
+    .faq details{border-bottom:1px solid var(--line);padding:17px 0}.faq summary{cursor:pointer;font-weight:700;color:var(--navy)}.faq p{color:var(--muted);font-size:14px;margin:12px 0 0}
+    .contact{display:grid;grid-template-columns:.9fr 1.1fr;gap:35px}.contact-box{background:var(--navy);color:#fff;border-radius:24px;padding:35px}.contact-box p{color:#dbe4ee}.contact-item{margin:20px 0}.contact-item small{display:block;color:#aebdce;text-transform:uppercase;letter-spacing:1px;font-size:10px;font-weight:700}.contact-item a{color:#fff}.form{border:1px solid var(--line);border-radius:24px;padding:30px;box-shadow:var(--shadow)}label{font-size:12px;font-weight:700;color:var(--navy);display:block;margin:0 0 6px}input,textarea,select{width:100%;border:1px solid #dfe3e9;border-radius:10px;padding:13px;font:inherit;font-size:14px;margin-bottom:16px}textarea{min-height:130px;resize:vertical}
+    footer{background:#07182c;color:#cdd7e3;padding:40px 0}.footer-grid{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap}.footer-brand{color:#fff;font-weight:700;font-size:18px}.footer-brand span{color:var(--gold)}.footer-links{display:flex;gap:18px;flex-wrap:wrap;font-size:12px}.copyright{margin-top:28px;padding-top:20px;border-top:1px solid rgba(255,255,255,.1);font-size:11px;color:#94a4b7}
+    .tag{display:inline-block;background:#f9f5e7;color:#806511;border-radius:999px;padding:6px 10px;font-size:11px;font-weight:700;margin:3px}
+    @media(max-width:850px){.hero-grid,.contact,.grid2{grid-template-columns:1fr}.grid3{grid-template-columns:1fr 1fr}.process{grid-template-columns:1fr 1fr 1fr}nav{display:none}.menu{display:block}.hero{padding:75px 0}.hero-card{min-height:280px}}
+    @media(max-width:560px){section{padding:62px 0}.grid3,.checks,.process{grid-template-columns:1fr}.nav{height:68px}.hero{padding:60px 0}.hero-card{min-height:240px}.form,.contact-box,.card{padding:22px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="#home">HR <span>DECK</span> STUDIO</a>
+    <nav>
+      <a href="#about">About</a><a href="#recruitment">Recruitment</a><a href="#consultancy">HR Consultancy</a><a href="#training">Training</a><a href="#candidates">Candidates</a><a href="#contact">Contact</a>
+    </nav>
+    <button class="menu" aria-label="Menu" onclick="document.querySelector('nav').classList.toggle('mobile')">☰</button>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow">Recruitment • HR Consultancy • HR Training</div>
+      <h1>Build Better Teams. Build Better HR.</h1>
+      <p>Practical recruitment, HR consultancy and career-focused HR training for growing businesses and professionals.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#contact">Hire Talent</a>
+        <a class="btn btn-light" href="#services">Explore Services</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <div class="hero-card-inner">
+        <strong>People. Process. Growth.</strong>
+        <p>Practical HR support designed around real business and career needs.</p>
+        <div style="margin-top:14px"><span class="tag">Talent Acquisition</span><span class="tag">HR Operations</span><span class="tag">Training</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container grid2">
+    <div class="section-head">
+      <div class="eyebrow" style="color:var(--gold)">ABOUT US</div>
+      <h2>Your People. Our HR Expertise.</h2>
+      <p>HR Deck Studio is a Bengaluru-based HR consultancy, recruitment and training firm focused on helping organizations build stronger teams and practical HR processes.</p>
+    </div>
+    <div class="card">
+      <p>We support startups, SMEs and growing organizations with recruitment, HR operations, employee documentation, onboarding, policies, performance management and HR consulting.</p>
+      <p>We also provide practical HR training for freshers and working professionals who want to develop job-ready HR skills.</p>
+      <a class="btn btn-primary" href="#contact">Talk to Our HR Team</a>
+    </div>
+  </div>
+</section>
+
+<section class="light" id="services">
+  <div class="container">
+    <div class="section-head center"><div class="eyebrow" style="color:var(--gold)">WHAT WE DO</div><h2>HR Solutions That Move With Your Business</h2><p>Choose the support you need today and scale as your organization grows.</p></div>
+    <div class="grid3">
+      <div class="card"><div class="icon">01</div><h3>Recruitment Services</h3><p>Find the right talent faster with practical sourcing, screening, interview coordination and joining support.</p><a class="btn btn-outline" href="#recruitment">Explore Recruitment</a></div>
+      <div class="card"><div class="icon">02</div><h3>HR Consultancy</h3><p>Build structured HR processes covering policies, documentation, onboarding, employee lifecycle and HR operations.</p><a class="btn btn-outline" href="#consultancy">Explore Consultancy</a></div>
+      <div class="card"><div class="icon">03</div><h3>HR Training</h3><p>Learn practical HR skills through focused programs for freshers, aspiring HR professionals and working professionals.</p><a class="btn btn-outline" href="#training">Explore Training</a></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head center"><div class="eyebrow" style="color:var(--gold)">WHY HR DECK STUDIO?</div><h2>Practical. Professional. People-Focused.</h2></div>
+    <div class="grid3">
+      <div class="card"><h3>Practical Approach</h3><p>Solutions designed around real workplace requirements.</p></div>
+      <div class="card"><h3>Business-Focused</h3><p>HR processes aligned with organizational needs.</p></div>
+      <div class="card"><h3>Personalized Support</h3><p>We understand your requirement before recommending a solution.</p></div>
+      <div class="card"><h3>Experienced Perspective</h3><p>Practical experience across recruitment and HR operations.</p></div>
+      <div class="card"><h3>End-to-End Support</h3><p>From hiring to HR processes and professional development.</p></div>
+      <div class="card"><h3>Long-Term Partnership</h3><p>We aim to build ongoing relationships, not just one-time transactions.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="light" id="recruitment">
+  <div class="container">
+    <div class="section-head"><div class="eyebrow" style="color:var(--gold)">RECRUITMENT SERVICES</div><h2>Recruitment That Connects Talent With Opportunity</h2><p>Helping growing organizations find, assess and hire the right people.</p></div>
+    <div class="grid3">
+      <div class="card"><h3>IT Recruitment</h3><p>Recruitment support for technology and IT-related positions.</p></div>
+      <div class="card"><h3>Non-IT Recruitment</h3><p>Hiring support for business, administration, operations and customer-facing functions.</p></div>
+      <div class="card"><h3>Sales & BDE Hiring</h3><p>Recruitment support for sales and business development roles.</p></div>
+      <div class="card"><h3>HR Recruitment</h3><p>Hiring HR professionals across recruitment, HR operations and related functions.</p></div>
+      <div class="card"><h3>Bulk Hiring</h3><p>Structured sourcing and screening for multiple open positions.</p></div>
+      <div class="card"><h3>Fresher Hiring</h3><p>Helping organizations connect with entry-level and graduate talent.</p></div>
+      <div class="card"><h3>Executive Hiring</h3><p>Focused recruitment support for experienced and specialized positions.</p></div>
+      <div class="card"><h3>Contract & Manpower</h3><p>Flexible workforce recruitment support based on business requirements.</p></div>
+    </div>
+    <h3 style="margin-top:55px">Our Recruitment Process</h3>
+    <div class="process">
+      <div class="step"><b>01</b><span>Requirement Understanding</span></div><div class="step"><b>02</b><span>Candidate Sourcing</span></div><div class="step"><b>03</b><span>Screening & Shortlisting</span></div><div class="step"><b>04</b><span>Interview Coordination</span></div><div class="step"><b>05</b><span>Selection & Joining Support</span></div>
+    </div>
+    <div class="actions"><a class="btn btn-primary" href="#contact">Submit Hiring Requirement</a></div>
+  </div>
+</section>
+
+<section id="consultancy">
+  <div class="container">
+    <div class="section-head"><div class="eyebrow" style="color:var(--gold)">HR CONSULTANCY</div><h2>Practical HR Solutions for Growing Businesses</h2><p>Build structured HR processes without the complexity of building everything internally.</p></div>
+    <div class="grid3">
+      <div class="card"><h3>HR Setup</h3><p>Build foundational HR processes suitable for startups and growing businesses.</p></div>
+      <div class="card"><h3>HR Policies</h3><p>Develop structured policies and workplace guidelines.</p></div>
+      <div class="card"><h3>Employee Documentation</h3><p>Support with essential HR documents, records and templates.</p></div>
+      <div class="card"><h3>Onboarding & Offboarding</h3><p>Create structured joining and exit processes.</p></div>
+      <div class="card"><h3>HR Operations</h3><p>Support day-to-day HR administration and processes.</p></div>
+      <div class="card"><h3>Performance Management</h3><p>Introduce structured approaches to performance tracking and review.</p></div>
+      <div class="card"><h3>Employee Engagement</h3><p>Support initiatives that improve communication and engagement.</p></div>
+      <div class="card"><h3>HR Process Development</h3><p>Create practical workflows, trackers and systems.</p></div>
+      <div class="card"><h3>HR Reports & Trackers</h3><p>Build useful HR dashboards and trackers.</p></div>
+    </div>
+    <h3 style="margin-top:55px">Flexible HR Support</h3>
+    <div class="grid3">
+      <div class="card"><div class="number">STARTER HR</div><h3>Foundation Support</h3><p>HR documentation, employee records, joining formalities, exit documentation and basic HR support.</p><a class="btn btn-outline" href="#contact">Enquire Now</a></div>
+      <div class="card"><div class="number">GROWTH HR</div><h3>Ongoing Support</h3><p>Recruitment support, HR policies, documentation, employee engagement, performance tracking and monthly HR support.</p><a class="btn btn-outline" href="#contact">Enquire Now</a></div>
+      <div class="card"><div class="number">COMPLETE HR</div><h3>Broader HR Support</h3><p>End-to-end HR operations, recruitment, onboarding, policies, performance, engagement, reporting and consultation.</p><a class="btn btn-primary" href="#contact">Request Consultation</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="light" id="training">
+  <div class="container">
+    <div class="section-head"><div class="eyebrow" style="color:var(--gold)">HR TRAINING</div><h2>Learn HR. Practice HR. Build Your Career.</h2><p>Practical HR training designed around real workplace skills.</p></div>
+    <div class="grid2">
+      <div class="card"><h3>Practical HR Operations</h3><p>Learn the fundamentals of HR operations and workplace processes.</p><span class="tag">Freshers</span><span class="tag">HR Aspirants</span></div>
+      <div class="card"><h3>Recruitment & Talent Acquisition</h3><p>Learn sourcing, screening, interview coordination and recruitment processes.</p><span class="tag">Recruiters</span><span class="tag">HR Professionals</span></div>
+      <div class="card"><h3>Payroll & HR Administration</h3><p>Understand the fundamentals of HR administration and payroll coordination.</p></div>
+      <div class="card"><h3>Practical HR Documentation</h3><p>Learn practical HR letters, records, trackers and processes.</p></div>
+      <div class="card"><h3>HR Career Program</h3><p>A broader practical program covering multiple HR functions.</p></div>
+    </div>
+    <div class="card" style="margin-top:22px">
+      <h3>What You'll Learn</h3>
+      <div class="checks"><div><span>✓</span>Recruitment</div><div><span>✓</span>Candidate sourcing</div><div><span>✓</span>Screening</div><div><span>✓</span>Interview coordination</div><div><span>✓</span>Onboarding</div><div><span>✓</span>HR documentation</div><div><span>✓</span>Employee lifecycle</div><div><span>✓</span>HR operations</div><div><span>✓</span>Performance basics</div><div><span>✓</span>Practical HR tools</div></div>
+      <a class="btn btn-primary" href="#contact">Enquire About Training</a>
+    </div>
+  </div>
+</section>
+
+<section id="candidates">
+  <div class="container grid2">
+    <div class="section-head"><div class="eyebrow" style="color:var(--gold)">FOR CANDIDATES</div><h2>Your Career. Your Next Opportunity.</h2><p>Connect with relevant opportunities and build practical career skills.</p><div class="actions"><a class="btn btn-primary" href="#contact">Submit Resume</a><a class="btn btn-outline" href="#training">Explore Training</a></div></div>
+    <div class="card"><h3>You Can</h3><div class="checks" style="grid-template-columns:1fr"><div><span>✓</span>Submit your resume</div><div><span>✓</span>Explore suitable opportunities</div><div><span>✓</span>Prepare for interviews</div><div><span>✓</span>Improve your resume</div><div><span>✓</span>Build your LinkedIn profile</div><div><span>✓</span>Develop practical HR skills</div></div><hr style="border:0;border-top:1px solid var(--line);margin:24px 0"><h3>Candidate Process</h3><p><b>Submit Resume</b> → <b>Profile Screening</b> → <b>Relevant Opportunity</b> → <b>Interview</b> → <b>Selection & Joining</b></p><p style="font-size:12px">Candidate selection depends on client requirements, qualifications, experience and interview performance. Submitting a resume does not guarantee employment.</p></div>
+  </div>
+</section>
+
+<section class="light">
+  <div class="container faq">
+    <div class="section-head center"><div class="eyebrow" style="color:var(--gold)">FAQ</div><h2>Frequently Asked Questions</h2></div>
+    <details><summary>What services does HR Deck Studio provide?</summary><p>Recruitment, HR consultancy and practical HR training services for businesses and professionals.</p></details>
+    <details><summary>Which companies do you work with?</summary><p>We primarily support startups, SMEs and growing organizations.</p></details>
+    <details><summary>What types of recruitment do you handle?</summary><p>IT, Non-IT, sales, HR, fresher, bulk, executive and contract/manpower recruitment requirements.</p></details>
+    <details><summary>Can a startup outsource its HR requirements?</summary><p>Yes. HR support can be customized based on the organization's size and requirements.</p></details>
+    <details><summary>Do you provide HR training for freshers?</summary><p>Yes. Programs are designed for freshers, HR aspirants and working professionals.</p></details>
+    <details><summary>Does submitting a resume guarantee a job?</summary><p>No. Selection depends on client requirements, candidate suitability and interview performance.</p></details>
+    <details><summary>How can a company submit a hiring requirement?</summary><p>Use the contact section below or reach out directly through WhatsApp/email.</p></details>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container">
+    <h2>Let's Build Something Better Together.</h2>
+    <p>Whether you are looking for talent, HR support or practical HR training, we're ready to help.</p>
+    <div class="actions"><a class="btn btn-primary" href="#contact">Hire Talent</a><a class="btn btn-light" href="#contact">Contact Us</a></div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container contact">
+    <div class="contact-box">
+      <div class="eyebrow">CONTACT</div>
+      <h2>Let's Talk HR</h2>
+      <p>Tell us what you need and we'll help you find the right solution.</p>
+      <div class="contact-item"><small>Location</small>Bengaluru, Karnataka, India</div>
+      <div class="contact-item"><small>WhatsApp</small><a href="https://wa.me/916362102272" target="_blank">Add your WhatsApp number</a></div>
+      <div class="contact-item"><small>Email</small><a href="mailto:Shwethgowda245@gmail.com">Add your business email</a></div>
+      <div class="contact-item"><small>LinkedIn</small><a href="#" onclick="return false">Add your LinkedIn page</a></div>
+    </div>
+    <div class="form">
+      <h3>Send an Enquiry</h3>
+      <p style="color:var(--muted);font-size:13px">This starter form opens an email draft. Replace the email address above before publishing.</p>
+      <form onsubmit="sendMail(event)">
+        <label>Name</label><input id="name" required placeholder="Your name">
+        <label>Email</label><input id="email" type="email" required placeholder="you@example.com">
+        <label>I'm interested in</label>
+        <select id="interest"><option>Recruitment Services</option><option>HR Consultancy</option><option>HR Training</option><option>Job Opportunities</option><option>Other</option></select>
+        <label>Message</label><textarea id="message" required placeholder="Tell us how we can help"></textarea>
+        <button class="btn btn-primary" type="submit">Send Enquiry</button>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div><div class="footer-brand">HR <span>DECK</span> STUDIO</div><div style="font-size:12px;margin-top:5px">People. Process. Growth.</div></div>
+      <div class="footer-links"><a href="#about">About</a><a href="#recruitment">Recruitment</a><a href="#consultancy">Consultancy</a><a href="#training">Training</a><a href="#candidates">Candidates</a><a href="#contact">Contact</a></div>
+    </div>
+    <div class="copyright">© 2026 HR Deck Studio. All Rights Reserved.</div>
+  </div>
+</footer>
+
+<script>
+function sendMail(e){
+  e.preventDefault();
+  const to='Shwethgowda245@gmail.com';
+  const name=document.getElementById('name').value;
+  const email=document.getElementById('email').value;
+  const interest=document.getElementById('interest').value;
+  const message=document.getElementById('message').value;
+  const subject=encodeURIComponent('HR Deck Studio Enquiry - '+interest);
+  const body=encodeURIComponent('Name: '+name+'\\nEmail: '+email+'\\nInterest: '+interest+'\\n\\nMessage:\\n'+message);
+  window.location.href='mailto:'+to+'?subject='+subject+'&body='+body;
+}
+</script>
+</body>
+</html>
